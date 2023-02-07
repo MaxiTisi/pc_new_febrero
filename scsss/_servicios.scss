@@ -1,0 +1,28 @@
+.section_servicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px;
+    background-color: rgb(75, 190, 219);
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 25px;
+        border: solid 3px black;
+        margin: 25px;
+
+        img{
+            width: 450px;
+            height: 350px;
+        }
+    }
+
+    .wp_img {
+        width: 25px;
+        height: 25px;
+    }
+}
+
