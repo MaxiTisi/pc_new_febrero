@@ -36,6 +36,9 @@
     flex-direction: row;
     justify-content: space-around;
     margin: 50px;
+    background-color: $background;
+    padding: 10px;
+
 
     div:hover {
         transform: scale(1.05);
@@ -49,8 +52,11 @@
         border: solid 3px black;
         transition: 1s;
 
+        
+
         h2 ,p   {
             font-weight: bold;
+            color: $color-text;
         }
 
       
@@ -83,6 +89,8 @@
     }
 
     @media (max-width:800px){
+        margin: 15px;
+        width: 450px;
         div {
             width: 400px;
             margin: 25px;

@@ -5,6 +5,9 @@
     justify-content: space-around;
     align-items: center;
     margin: 100px;
+    background-color: $background;
+    padding: 10px;
+    
 
     
     
@@ -45,13 +48,18 @@
     @media (max-width:800px){
         div{
             iframe{
-                width: 600px;
+                width: 400px;
             }
            
         }
     }
     
     @media (max-width:600px){
+        width: 425px;
+        margin: 25px;
+
+        
+        
         div{
             iframe{
                 width: 400px;

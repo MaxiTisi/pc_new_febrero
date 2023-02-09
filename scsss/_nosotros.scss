@@ -3,12 +3,14 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 10px;
+    background-color: rgb(75, 190, 219);
 
     div{
         display: flex;
         flex-direction: block;
         align-items: center;
         margin: 5px;
+
         
 
         img {

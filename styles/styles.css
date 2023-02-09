@@ -42,6 +42,8 @@
   flex-direction: row;
   justify-content: space-around;
   margin: 50px;
+  background-color: rgb(75, 190, 219);
+  padding: 10px;
 }
 .section_cards div:hover {
   transform: scale(1.05);
@@ -56,6 +58,7 @@
 }
 .section_cards div h2, .section_cards div p {
   font-weight: bold;
+  color: red;
 }
 .section_cards div img {
   height: 500px;
@@ -78,6 +81,10 @@
   }
 }
 @media (max-width: 800px) {
+  .section_cards {
+    margin: 15px;
+    width: 450px;
+  }
   .section_cards div {
     width: 400px;
     margin: 25px;
@@ -110,6 +117,7 @@ footer div p {
   flex-direction: row;
   justify-content: space-between;
   padding: 10px;
+  background-color: rgb(75, 190, 219);
 }
 .section_nosotros div {
   display: flex;
@@ -155,6 +163,8 @@ footer div p {
   justify-content: space-around;
   align-items: center;
   margin: 100px;
+  background-color: rgb(75, 190, 219);
+  padding: 10px;
 }
 .section_contacto form {
   display: flex;
@@ -184,10 +194,14 @@ footer div p {
 }
 @media (max-width: 800px) {
   .section_contacto div iframe {
-    width: 600px;
+    width: 400px;
   }
 }
 @media (max-width: 600px) {
+  .section_contacto {
+    width: 425px;
+    margin: 25px;
+  }
   .section_contacto div iframe {
     width: 400px;
   }
@@ -216,4 +230,48 @@ footer div p {
 .section_servicios .wp_img {
   width: 25px;
   height: 25px;
+}
+
+.section_productos {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.section_productos div {
+  width: 450px;
+  height: 525px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: solid 3px black;
+  margin: 15px;
+  padding: 2px;
+}
+.section_productos div img {
+  width: 350px;
+  height: 350px;
+}
+.section_productos div ul li {
+  list-style-type: none;
+}
+@media (max-width: 1450px) {
+  .section_productos {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+  }
+}
+@media (max-width: 1000px) {
+  .section_productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 600px) {
+  .section_productos div {
+    width: 380px;
+  }
 }/*# sourceMappingURL=styles.css.map */
