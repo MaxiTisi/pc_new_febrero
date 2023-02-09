@@ -3,7 +3,6 @@
     flex-direction: row;
     justify-content: space-around;
     margin: 50px;
-    background-color: rgb(75, 190, 219);
 
     div {
         display: flex;
@@ -47,7 +46,7 @@
     @media (max-width:600px){
         div {
             img{
-                width: 300px;
+                width: 200px;
             }
         }
     }

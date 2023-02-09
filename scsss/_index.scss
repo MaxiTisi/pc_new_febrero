@@ -36,7 +36,6 @@
     flex-direction: row;
     justify-content: space-around;
     margin: 50px;
-    background-color: $background;
     padding: 10px;
 
 
@@ -89,13 +88,12 @@
     }
 
     @media (max-width:800px){
-        margin: 15px;
-        width: 450px;
+        margin: 5px;
         div {
-            width: 400px;
-            margin: 25px;
+            width: 350px;
+            margin: 5px;
             img{
-                width: 380px;
+                width: 300px;
             }
         }
     }

@@ -42,7 +42,6 @@
   flex-direction: row;
   justify-content: space-around;
   margin: 50px;
-  background-color: rgb(75, 190, 219);
   padding: 10px;
 }
 .section_cards div:hover {
@@ -82,15 +81,14 @@
 }
 @media (max-width: 800px) {
   .section_cards {
-    margin: 15px;
-    width: 450px;
+    margin: 5px;
   }
   .section_cards div {
-    width: 400px;
-    margin: 25px;
+    width: 350px;
+    margin: 5px;
   }
   .section_cards div img {
-    width: 380px;
+    width: 300px;
   }
 }
 
@@ -117,7 +115,6 @@ footer div p {
   flex-direction: row;
   justify-content: space-between;
   padding: 10px;
-  background-color: rgb(75, 190, 219);
 }
 .section_nosotros div {
   display: flex;
@@ -163,7 +160,6 @@ footer div p {
   justify-content: space-around;
   align-items: center;
   margin: 100px;
-  background-color: rgb(75, 190, 219);
   padding: 10px;
 }
 .section_contacto form {
@@ -199,11 +195,16 @@ footer div p {
 }
 @media (max-width: 600px) {
   .section_contacto {
-    width: 425px;
-    margin: 25px;
+    margin: 0px;
+  }
+  .section_contacto form {
+    width: 300px;
+  }
+  .section_contacto form input, .section_contacto form textarea {
+    width: 275px;
   }
   .section_contacto div iframe {
-    width: 400px;
+    width: 300px;
   }
 }
 
@@ -212,7 +213,6 @@ footer div p {
   flex-direction: row;
   justify-content: space-around;
   margin: 50px;
-  background-color: rgb(75, 190, 219);
 }
 .section_servicios div {
   display: flex;
@@ -247,7 +247,7 @@ footer div p {
 }
 @media (max-width: 600px) {
   .section_servicios div img {
-    width: 300px;
+    width: 200px;
   }
 }
 
